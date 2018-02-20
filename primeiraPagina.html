@@ -10,9 +10,17 @@
           font-family: Arial, sans-serif; <!-- se arial não for encontrada, usará a sans-serif -->
       }
     </style>
+
+    <script> <!-- adicionando script de javascript -->
+        function inicial(){
+          nome.innerHTML = "Yulli =D"; <!-- preenchendo o paragrafo com id="nome" -->
+        }
+        window.onload = inicial <!-- é chamado quando a janela foi totalmente carregada -->
+    </script>
   </head>
 
   <body> <!-- conteúdo da página -->
     Essa página tem conteúdo !
+    <p id="nome"></p> <!-- id identifica o paragrafo -->
   </body>
 </html>
