@@ -1,0 +1,26 @@
+<!DOCTYPE html> <!-- deixa claro o tipo do arquivo, essencial para o navegador -->
+<html lang="pt-BR"> <!-- lang não garante que o navegador mostrará os acentos corretamente -->
+  <head> <!-- instruções relativas ao documento -->
+    <!-- meta trabalha com meta dados. Facilitam o entendimento dos relacionamento e utilização dos dados-->
+    <meta charset="utf-8"> <!-- utf-8 é universal -->
+    <meta name="author"           content="Yulli Dias">
+    <meta name"generator"         content="Brackets">
+    <meta name="keywords"         content= "HTML5, Aprendizado"> <!-- palavras chaves para a página ser encontrada -->
+    <meta name="description"      content="Pagina de códigos HTML produzidos durante o estudo do mesmo">
+    <meta name="application-name" content="iMedia Brasil">
+
+    <meta http-equiv="refresh" content="3"> <!-- atualiza a página a cada 3 segundos -->
+
+    <script>
+      function sorteioNumero(){
+        sorteio.innerHTML = Math.round(Math.random() * 50);
+      }
+      window.onload = sorteioNumero;
+    </script>
+
+  </head>
+
+  <body> <!-- conteúdo da página -->
+    <p id="sorteio"></p> <!-- id identifica o paragrafo -->
+  </body>
+</html>
